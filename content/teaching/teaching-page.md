@@ -1,5 +1,5 @@
 ---
-title: "Random Thoughts"
+title: teaching"
 date: 2023-05-06T12:21:41-05:00
 draft: false
 ---

@@ -8,9 +8,9 @@ languageName = "English"
 
 # Author config
 [author]
-  name = "xxxx"
-  email = ""
-  link = ""
+  name = "J. Christopher Westland"
+  email = "westland@uic.edu"
+  link = "westland.github.io/personal"
 
 # Menu config
 [menu]
@@ -21,26 +21,34 @@ languageName = "English"
     pre = ""
     # you can add extra information after the name (HTML format is supported), such as icons
     post = ""
-    name = "Posts"
-    url = "/posts/"
+    name = "What's New"
+    url = ""
     # title will be shown when you hover on this menu link
-    title = ""
+    title = "posts"
   [[menu.main]]
     weight = 2
-    identifier = "tags"
+    identifier = "teaching"
     pre = ""
     post = ""
-    name = "Tags"
-    url = "/tags/"
-    title = ""
+    name = "Teaching"
+    url = "teaching"
+    title = "teaching"
   [[menu.main]]
     weight = 3
-    identifier = "categories"
+    identifier = "research"
     pre = ""
     post = ""
-    name = "Categories"
-    url = "/categories/"
-    title = ""
+    name = "Research"
+    url = "research"
+    title = "research"
+  [[menu.main]]
+    weight = 4
+    identifier = "CV"
+    pre = ""
+    post = ""
+    name = "CV"
+    url = "personal"
+    title = "Personal"
 
 # Markup related configuration in Hugo
 [markup]
